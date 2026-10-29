@@ -28,10 +28,10 @@ body {
 .saylanilginpage {
   display: flex;
   justify-content: center;
-  border: 1px solid #0F2D6B;
   width: 100vw;
   height: 100vh;
   overflow-y: hidden;
+  
 
 }
 
@@ -41,7 +41,7 @@ body {
   align-items: center;   
   justify-content: center; 
   padding: 20px;
-
+padding-top: 0px;
   background-color: #0F2D6B;
   height: 100vh;
   flex: 4;
@@ -49,7 +49,7 @@ body {
 }
 
 .right-pic {
-
+  
   flex: 6;
   height: 100%;
 }
@@ -59,7 +59,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
+  
 }
 
 .logo {
@@ -104,6 +104,7 @@ body {
   width: 350px;
   height: 42px;
   margin-top: 4vh;
+
   border-radius: 10px;
   border: 0.01px solid #4671C6A6;
   background: rgba(255, 255, 255, 0.07);
@@ -156,7 +157,6 @@ body {
   width: 380px;
   height: 42px;
   margin-top: 60px;
-  /* margin-left: 105px; */
   border-radius: 10px;
   background-color: #1A4FBA;
   outline: 0.5px solid #4978d5a6;
@@ -213,7 +213,6 @@ button {
   width: 350px;
   height: 42px;
   margin-top: 30px;
-  /* margin-left: 105px; */
   border-radius: 10px;
   cursor: pointer;
   background: rgba(255, 255, 255, 0.06);
@@ -247,7 +246,6 @@ button {
   width: 350px;
   height: 42px;
   margin-top: 10px;
-  /* margin-left: 105px; */
   border-radius: 10px;
   cursor: pointer;
   background: rgba(255, 255, 255, 0.06);
@@ -271,7 +269,6 @@ button {
 .creat {
   display: flex;
   text-align: center;
-  /* margin-left: 135px; */
   margin-top: 17px;
   gap: 5px;
 }
@@ -297,4 +294,39 @@ button {
   .right-pic {
     display: none;
   }
+   .emailbox{
+    width: 330px;
+    height: 38px;
+
+  }
+  .Forgotdiv {
+  margin-left: 215px;
+  margin-top: 10px;
+  display:flex ;
+  text-align: left;
+  
+}
+.button {
+  width: 360px;
+  height: 38px;
+}
+.signinwith{
+  width: 330px;
+  height: 38px;
+}
+.signinwith2{
+  width: 330px;
+  height: 38px;
+}
+.logininto{
+  width: 380px;
+  height: 10px;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+    width: 405px;
+    height: auto;}
+
 }
